@@ -1,0 +1,14 @@
+.logoWrapper {
+    font-size: 1rem;
+  }
+  
+  .logoLink {
+    text-decoration: none;
+    color: #ffba33;
+    font-weight: bold;
+  }
+  
+  .logoLink:hover {
+    text-decoration: none;
+  }
+  

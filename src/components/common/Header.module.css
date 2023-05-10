@@ -1,0 +1,28 @@
+.headerWrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+  }
+  
+  .navList {
+    list-style: none;
+    display: flex;
+  }
+  
+  .navItem {
+    margin-left: 1rem;
+  }
+  
+  .navLink {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+    font-size: 16px;
+  }
+  
+  .navLink:hover {
+    color: #ffba33;
+    text-decoration: underline;
+  }
+  

@@ -1,0 +1,25 @@
+.container {
+  max-width: 1500px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.post-thumbnail-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.post-thumbnail {
+  width: 300px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  overflow: hidden;
+  transition: box-shadow 0.3s;
+}
+
+.post-thumbnail:hover {
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.15);
+}
